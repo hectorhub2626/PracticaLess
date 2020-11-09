@@ -1,0 +1,35 @@
+extend componentes/plantilla.pug
+block contenidos
+
+   section.intro
+     .intro__imagen: img(src="images/portada.png") 
+     .intro__contenido
+       span.intro__categoria Noticias 
+       h1.intro__titulo #{titulos[0]} 
+     .intro__autor
+       img(src="images/autor.png")
+       span.intro__autor-titulo Autor 
+       span.intro__autor-nombre Kaname Fujioka​
+       span.intro__autor-genero Rol de acción
+   article.articulo--principal  
+       p Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum excepturi sequi vero soluta vitae. Minus maiores doloremque alias odio modi, deserunt recusandae fugit officiis aspernatur temporibus assumenda fugiat architecto? Voluptate.
+         span Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+       a.boton Registro  
+   main.contenido  
+    .caja
+      .caja__imagen: img(src="images/picture.png")
+      .caja__contenido
+        h3 Sin mixing 
+        p Lorem ipsum dolor sit amet consectetur 
+
+    +caja("picture.png",titulos[1],"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum excepturi sequi vero soluta vitae. Minus maiores doloremque alias odio modi, deserunt recusandae fugit officiis aspernatur temporibus assumenda fugiat architecto? Voluptate.")
+
+    +caja("picture.png",titulos[2],"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum excepturi sequi vero soluta vitae. Minus maiores doloremque alias odio modi, deserunt recusandae fugit officiis aspernatur temporibus assumenda fugiat architecto? Voluptate.")
+
+    +caja("picture.png", titulos[3] ,"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum excepturi sequi vero soluta vitae. Minus maiores doloremque alias odio modi, deserunt recusandae fugit officiis aspernatur temporibus assumenda fugiat architecto? Voluptate.")
+
+    +caja("picture.png",titulos[4],"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum excepturi sequi vero soluta vitae. Minus maiores doloremque alias odio modi, deserunt recusandae fugit officiis aspernatur temporibus assumenda fugiat architecto? Voluptate.") 
+
+    +caja("picture.png",titulos[4],"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum excepturi sequi vero soluta vitae. Minus maiores doloremque alias odio modi, deserunt recusandae fugit officiis aspernatur temporibus assumenda fugiat architecto? Voluptate.") 
+
+    +caja("picture.png",titulos[4],"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum excepturi sequi vero soluta vitae. Minus maiores doloremque alias odio modi, deserunt recusandae fugit officiis aspernatur temporibus assumenda fugiat architecto? Voluptate.") 
