@@ -33,7 +33,8 @@
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 70px;
-  margin-top: -20px;
+  margin-top: 30px;
+  line-height: unset;
 }
 .intro__autor {
   width: 250px;
