@@ -43,7 +43,6 @@ header {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3e4f82', endColorstr='#111721', GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
   position: relative;
-  width: 1320px;
 }
 header h1 {
   margin-left: 20px ;
@@ -55,12 +54,12 @@ header a {
   padding: 10px 30px;
   margin: 0 auto;
   position: absolute;
-  right: 40px;
-  top: 20px;
+  right: 30px;
+  top: 10px;
   line-height: unset;
 }
 .intro {
-  width: 1340px;
+  width: 1240px;
   height: 650px;
   padding: 10px;
   margin: 0 auto;
@@ -69,7 +68,7 @@ header a {
   box-shadow: 0px 5px 15px 0px rgba(51, 51, 51, 0.5);
 }
 .intro__imagen {
-  width: 1320px;
+  width: 1220px;
   position: absolute;
 }
 .intro__imagen img {
@@ -97,7 +96,7 @@ header a {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 70px;
-  margin-top: -20px;
+  margin-top: 30px;
 }
 .intro__autor {
   width: 250px;
@@ -107,6 +106,7 @@ header a {
   left: 0;
   right: 0;
   color: white;
+  line-height: unset;
 }
 .intro__autor img {
   width: 60px;
@@ -118,9 +118,11 @@ header a {
 .intro__autor span {
   display: inline-block;
   font-size: 20px;
+  line-height: unset;
 }
 .intro__autor-titulo {
   color: rgba(255, 255, 255, 0.5);
+  line-height: unset;
 }
 .articulo--principal {
   max-width: 800px;
@@ -135,7 +137,7 @@ header a {
   color: blue;
 }
 .contenedor--cajas {
-  width: 1400px;
+  width: 1240px;
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
@@ -145,7 +147,7 @@ header a {
   box-shadow: 0px 5px 15px 0px rgba(51, 51, 51, 0.5);
 }
 .contenedor--cajas .caja__imagen img {
-  height: 250px;
+  height: 200px;
 }
 .contenedor--cajas .caja__contenido {
   padding: 25px;
@@ -153,4 +155,32 @@ header a {
 }
 .contenedor--cajas .caja h3 {
   color: red;
+}
+footer {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3e4f82+0,585d84+16,1a2add+39,3571ff+58,8b8eaf+69,373b77+88,111721+94,111721+94,111721+100 */
+  background: #3e4f82;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #3e4f82 0%, #585d84 16%, #1a2add 39%, #3571ff 58%, #8b8eaf 69%, #373b77 88%, #111721 94%, #111721 94%, #111721 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3e4f82', endColorstr='#111721', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  justify-content: space-between;
+  display: flex;
+}
+footer h1 {
+  margin-left: 20px ;
+  padding-top: 20px;
+  padding-bottom: 20px ;
+}
+footer ul {
+  margin-right: 40px;
+  margin-top: 24px;
+}
+footer li {
+  color: white;
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
 }
